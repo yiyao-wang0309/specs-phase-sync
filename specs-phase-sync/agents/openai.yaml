@@ -1,0 +1,7 @@
+interface:
+  display_name: "任务完成后同步规格"
+  short_description: "完成任务后同步 specs 和 changelog"
+  default_prompt: "使用 $specs-phase-sync，在任务完成后同步项目 specs、phase 产物和 CHANGELOG.md。"
+
+policy:
+  allow_implicit_invocation: true
