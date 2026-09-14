@@ -1,7 +1,7 @@
 interface:
   display_name: "任务完成后同步规格"
   short_description: "完成任务后同步 specs 和 changelog"
-  default_prompt: "使用 $specs-phase-sync，在任务完成后同步项目 specs、phase 产物和 CHANGELOG.md。"
+  default_prompt: "使用 $specs-phase-sync。由该技能负责 preview、同步 specs、创建日期任务、更新 CHANGELOG 和按授权执行 Git 操作。确认后，按已确定的文件清单执行；不要修改代码。验证通过后提交本次文档变更。"
 
 policy:
   allow_implicit_invocation: true
