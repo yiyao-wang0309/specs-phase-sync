@@ -29,5 +29,5 @@ $specs-phase-sync
 此 skill 默认只同步 `specs/` 和 `CHANGELOG.md` 等已批准的文档，不修改源代码、测试、依赖或 CI 配置。除非用户明确要求提交或外部上传，否则不会执行 git commit 或上传操作。
 
 ## 执行步骤
-1、@specs-phase-sync 由该技能负责 preview、同步 specs、创建日期任务、更新 CHANGELOG 和按授权执行 Git 操作
-2、确认，按刚才的文件清单执行。 不要修改代码。 验证通过后提交本次文档变更。这是现在的提示词，可以把这个skills传到我的github上吗
+-1、@specs-phase-sync 由该技能负责 preview、同步 specs、创建日期任务、更新 CHANGELOG 和按授权执行 Git 操作
+-2、确认，按刚才的文件清单执行。 不要修改代码。 验证通过后提交本次文档变更。
